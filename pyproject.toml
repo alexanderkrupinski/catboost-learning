@@ -1,0 +1,21 @@
+[project]
+name = "catboost-learning"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "Alex Krupinski",email = "alexander.krupinski@websensa.com"}
+]
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "catboost (>=1.2.8,<2.0.0)",
+    "pyqt5 (>=5.15.11,<6.0.0)",
+    "jupyterlab (>=4.5.2,<5.0.0)",
+    "scikit-learn (>=1.8.0,<2.0.0)",
+    "hyperopt (>=0.2.7,<0.3.0)",
+    "shap (>=0.50.0,<0.51.0)",
+]
+package-mode=false
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
